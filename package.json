@@ -1,0 +1,31 @@
+{
+  "name": "coffeelint-conditional-modifiers",
+  "version": "0.0.1",
+  "description": "A CoffeeLint rule that checks for use of conditional modifiers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/coffee-script/bin/coffee vowsrunner.coffee --spec test_conditional_modifiers.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Koronen/coffeelint-conditional-modifiers.git"
+  },
+  "keywords": [
+    "coffeelint",
+    "coffeelintrule"
+  ],
+  "author": "Victor Koronen <koronen@kth.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Koronen/coffeelint-conditional-modifiers/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.7.1"
+  },
+  "peerDependencies": {
+    "coffeelint": "~1.5.2"
+  },
+  "devDependencies": {
+    "vows": ">=0.6.0"
+  }
+}
