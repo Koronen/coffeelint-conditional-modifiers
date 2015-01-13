@@ -1,6 +1,6 @@
 {
   "name": "coffeelint-conditional-modifiers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A CoffeeLint rule that checks for use of conditional modifiers.",
   "main": "index.js",
   "scripts": {
@@ -20,10 +20,10 @@
     "url": "https://github.com/Koronen/coffeelint-conditional-modifiers/issues"
   },
   "dependencies": {
-    "coffee-script": "~1.7.1"
+    "coffee-script": "~1.7"
   },
   "peerDependencies": {
-    "coffeelint": "~1.5.2"
+    "coffeelint": "^1.5.2"
   },
   "devDependencies": {
     "vows": ">=0.6.0"
